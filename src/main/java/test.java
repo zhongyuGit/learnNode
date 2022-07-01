@@ -82,4 +82,6 @@ public class test {
     public String factory;
     // 图片命名
     public String pictureName;
+
+    public String test;
 }
