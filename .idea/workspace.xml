@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cd83921-c259-44b4-ab59-3ae3ede8b819" name="默认变更列表" comment="" />
+    <list default="true" id="7cd83921-c259-44b4-ab59-3ae3ede8b819" name="默认变更列表" comment="v2-test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SfTest/UploadFileToSFDC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SfTest/SFDCFileDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SfTest/SFDCFileDownload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TreadTest/Person.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,13 +25,24 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/state.globalValueSet" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/Person.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/state.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/TreadTest/Person.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/xml/globalSet.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/xml/GenerationXml.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -61,9 +78,22 @@
       <recent name="streamApi" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.main">
-    <configuration name="FileUpload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SfTest.FileUpload" />
+  <component name="RunManager" selected="应用程序.MainTest">
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zhijielina.MainTest" />
+      <module name="LearnNode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zhijielina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadFileToSFDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SfTest.UploadFileToSFDC" />
       <module name="LearnNode" />
       <extension name="coverage">
         <pattern>
@@ -75,19 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerationXml" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xml.GenerationXml" />
+    <configuration name="saleforceGettoken" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="saleforceGettoken" />
       <module name="LearnNode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamApi.LoginExample" />
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreadTest.test" />
       <module name="LearnNode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streamApi.*" />
+          <option name="PATTERN" value="TreadTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,21 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SFDCFileDownload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SfTest.SFDCFileDownload" />
-      <module name="LearnNode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SfTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main" />
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
       <module name="LearnNode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.main" />
-        <item itemvalue="应用程序.SFDCFileDownload" />
-        <item itemvalue="应用程序.FileUpload" />
-        <item itemvalue="应用程序.GenerationXml" />
-        <item itemvalue="应用程序.LoginExample" />
+        <item itemvalue="应用程序.MainTest" />
+        <item itemvalue="应用程序.saleforceGettoken" />
+        <item itemvalue="应用程序.UploadFileToSFDC" />
+        <item itemvalue="应用程序.test (1)" />
+        <item itemvalue="应用程序.test" />
       </list>
     </recent_temporary>
   </component>
@@ -157,8 +174,38 @@
       <workItem from="1655691329562" duration="594000" />
       <workItem from="1655862984515" duration="1259000" />
       <workItem from="1656297153384" duration="55000" />
-      <workItem from="1656297242020" duration="638000" />
+      <workItem from="1656297242020" duration="3032000" />
+      <workItem from="1657079359647" duration="673000" />
+      <workItem from="1657262207488" duration="2052000" />
+      <workItem from="1657267150045" duration="2839000" />
+      <workItem from="1658456525345" duration="658000" />
+      <workItem from="1658716490390" duration="625000" />
+      <workItem from="1659320693083" duration="45000" />
+      <workItem from="1659320764814" duration="2085000" />
+      <workItem from="1659594482592" duration="391000" />
+      <workItem from="1660113220921" duration="3991000" />
+      <workItem from="1660528450006" duration="1188000" />
+      <workItem from="1661134799202" duration="1230000" />
+      <workItem from="1661748765939" duration="659000" />
+      <workItem from="1661824589912" duration="610000" />
+      <workItem from="1661934253741" duration="33000" />
+      <workItem from="1661934472058" duration="2911000" />
     </task>
+    <task id="LOCAL-00001" summary="v1">
+      <created>1656646065308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656646065308</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v2-test">
+      <created>1656646472878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656646472878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +221,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1" />
+    <MESSAGE value="v2-test" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2-test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

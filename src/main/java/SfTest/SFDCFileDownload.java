@@ -12,18 +12,18 @@ import java.util.Objects;
 public class SFDCFileDownload {
 
     //请求地址
-    public static String url = "https://gzcelnet-dev-ed.my.salesforce.com/services/data/v47.0/sobjects/ContentVersion/0685j00000AbByVAAV/VersionData";
+    public static String url = "https://celnetcomcn-dev-ed.my.salesforce.com/services/data/v47.0/sobjects/ContentVersion/0685i000005uZSKAA2/VersionData";
     // 存储路径--自定义
     public static final String DIRECTORY_HEAD = "C:\\Users\\Derrick\\Desktop\\";
     // 认证token
-    public static final String token = "00D5j000009kjHX!ARwAQCkenCG0NOXbfYfhuucWJShdvNB.0.xL1.sOiqeqp_D3POt4nvqE1KLKRECpKI1ms8ar5eAUUqgDwnNrZhw1oTol96rH";
+    public static final String token = "00D5i0000013DV9!AQ4AQOHh0Eoby2drQo_DgDjeqEUZBauCz.1ugTQ5jnhfKKY6eJMfsYoIuc1KEwQmODGQfnnvv79D7cNE60B7AcEGkbeztYHz";
     //拼接成认证信息
     private static final String AUTHOR = "Bearer " + token;
 
     public static void main(String[] args) throws IOException {
         InputStream inputStream = existUrl(url);
         // 文件名
-        String fileName = "bb2";
+        String fileName = "bb23";
         // 文件类型后缀
         String key = "png";
         if (!Objects.isNull(inputStream)) {

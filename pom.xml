@@ -45,13 +45,13 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.1.6</version>
-            <scope>test</scope>
+            <scope>TreadTest.test</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.10</version>
-            <scope>test</scope>
+            <scope>TreadTest.test</scope>
         </dependency>
 <!--        sf Stream api-->
         <dependency>
@@ -59,6 +59,18 @@
             <artifactId>hutool-all</artifactId>
             <version>5.8.3</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpmime</artifactId>
+            <version>4.3.6</version>
+        </dependency>
+
     </dependencies>
 
 </project>
